@@ -1,0 +1,43 @@
+body {
+  background-color: #BEE9DC;
+  background-repeat: no-repeat;
+  background-size: 100vh 50vw;
+}
+
+h1{
+  color: white;
+   text-align: center;
+   font-family: cursive;
+   font-size: 40px;
+}
+
+p {
+   font-family: fantasy;
+   font-size: 20px;
+   color: #864C4C;
+   text-align: center;
+}
+h3{
+  font-size: 60px;
+  font-family:monospace;
+  color: #900C3F;
+  text-align: center;
+  text-shadow:2px 2px #ff0000;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+}
+#sidebar {
+    position: fixed;
+    width: 220px;
+    height: 100%;
+}
+#main-content {
+    position: relative;
+    left: 220px;
+    width: 100%;
+    height: 300px; /*This could be anything, content should scroll vertical*/
+}
